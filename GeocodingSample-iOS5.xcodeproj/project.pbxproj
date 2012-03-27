@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CCC831151C10D10029FD8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CCC830151C10D10029FD8E /* UIKit.framework */; };
+		22CCC833151C10D10029FD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CCC832151C10D10029FD8E /* Foundation.framework */; };
+		22CCC835151C10D10029FD8E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CCC834151C10D10029FD8E /* CoreGraphics.framework */; };
+		22CCC83B151C10D10029FD8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 22CCC839151C10D10029FD8E /* InfoPlist.strings */; };
+		22CCC83D151C10D10029FD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCC83C151C10D10029FD8E /* main.m */; };
+		22CCC841151C10D10029FD8E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCC840151C10D10029FD8E /* AppDelegate.m */; };
+		22CCC844151C10D10029FD8E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22CCC843151C10D10029FD8E /* ViewController.m */; };
+		22CCC847151C10D10029FD8E /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22CCC845151C10D10029FD8E /* ViewController.xib */; };
+		22CCC852151C5C500029FD8E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CCC851151C5C500029FD8E /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CCC82C151C10D10029FD8E /* GeocodingSample-iOS5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GeocodingSample-iOS5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22CCC830151C10D10029FD8E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		22CCC832151C10D10029FD8E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		22CCC834151C10D10029FD8E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		22CCC838151C10D10029FD8E /* GeocodingSample-iOS5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeocodingSample-iOS5-Info.plist"; sourceTree = "<group>"; };
+		22CCC83A151C10D10029FD8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		22CCC83C151C10D10029FD8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		22CCC83E151C10D10029FD8E /* GeocodingSample-iOS5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeocodingSample-iOS5-Prefix.pch"; sourceTree = "<group>"; };
+		22CCC83F151C10D10029FD8E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		22CCC840151C10D10029FD8E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		22CCC842151C10D10029FD8E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22CCC843151C10D10029FD8E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		22CCC846151C10D10029FD8E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		22CCC851151C5C500029FD8E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22CCC829151C10D10029FD8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CCC852151C5C500029FD8E /* CoreLocation.framework in Frameworks */,
+				22CCC831151C10D10029FD8E /* UIKit.framework in Frameworks */,
+				22CCC833151C10D10029FD8E /* Foundation.framework in Frameworks */,
+				22CCC835151C10D10029FD8E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22CCC821151C10D10029FD8E = {
+			isa = PBXGroup;
+			children = (
+				22CCC836151C10D10029FD8E /* GeocodingSample-iOS5 */,
+				22CCC82F151C10D10029FD8E /* Frameworks */,
+				22CCC82D151C10D10029FD8E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22CCC82D151C10D10029FD8E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22CCC82C151C10D10029FD8E /* GeocodingSample-iOS5.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22CCC82F151C10D10029FD8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22CCC830151C10D10029FD8E /* UIKit.framework */,
+				22CCC832151C10D10029FD8E /* Foundation.framework */,
+				22CCC834151C10D10029FD8E /* CoreGraphics.framework */,
+				22CCC851151C5C500029FD8E /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		22CCC836151C10D10029FD8E /* GeocodingSample-iOS5 */ = {
+			isa = PBXGroup;
+			children = (
+				22CCC83F151C10D10029FD8E /* AppDelegate.h */,
+				22CCC840151C10D10029FD8E /* AppDelegate.m */,
+				22CCC842151C10D10029FD8E /* ViewController.h */,
+				22CCC843151C10D10029FD8E /* ViewController.m */,
+				22CCC845151C10D10029FD8E /* ViewController.xib */,
+				22CCC837151C10D10029FD8E /* Supporting Files */,
+			);
+			path = "GeocodingSample-iOS5";
+			sourceTree = "<group>";
+		};
+		22CCC837151C10D10029FD8E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22CCC838151C10D10029FD8E /* GeocodingSample-iOS5-Info.plist */,
+				22CCC839151C10D10029FD8E /* InfoPlist.strings */,
+				22CCC83C151C10D10029FD8E /* main.m */,
+				22CCC83E151C10D10029FD8E /* GeocodingSample-iOS5-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22CCC82B151C10D10029FD8E /* GeocodingSample-iOS5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22CCC84A151C10D10029FD8E /* Build configuration list for PBXNativeTarget "GeocodingSample-iOS5" */;
+			buildPhases = (
+				22CCC828151C10D10029FD8E /* Sources */,
+				22CCC829151C10D10029FD8E /* Frameworks */,
+				22CCC82A151C10D10029FD8E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GeocodingSample-iOS5";
+			productName = "GeocodingSample-iOS5";
+			productReference = 22CCC82C151C10D10029FD8E /* GeocodingSample-iOS5.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22CCC823151C10D10029FD8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 22CCC826151C10D10029FD8E /* Build configuration list for PBXProject "GeocodingSample-iOS5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 22CCC821151C10D10029FD8E;
+			productRefGroup = 22CCC82D151C10D10029FD8E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22CCC82B151C10D10029FD8E /* GeocodingSample-iOS5 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22CCC82A151C10D10029FD8E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CCC83B151C10D10029FD8E /* InfoPlist.strings in Resources */,
+				22CCC847151C10D10029FD8E /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22CCC828151C10D10029FD8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CCC83D151C10D10029FD8E /* main.m in Sources */,
+				22CCC841151C10D10029FD8E /* AppDelegate.m in Sources */,
+				22CCC844151C10D10029FD8E /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22CCC839151C10D10029FD8E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CCC83A151C10D10029FD8E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		22CCC845151C10D10029FD8E /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22CCC846151C10D10029FD8E /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22CCC848151C10D10029FD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		22CCC849151C10D10029FD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22CCC84B151C10D10029FD8E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeocodingSample-iOS5/GeocodingSample-iOS5-Prefix.pch";
+				INFOPLIST_FILE = "GeocodingSample-iOS5/GeocodingSample-iOS5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22CCC84C151C10D10029FD8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeocodingSample-iOS5/GeocodingSample-iOS5-Prefix.pch";
+				INFOPLIST_FILE = "GeocodingSample-iOS5/GeocodingSample-iOS5-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22CCC826151C10D10029FD8E /* Build configuration list for PBXProject "GeocodingSample-iOS5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CCC848151C10D10029FD8E /* Debug */,
+				22CCC849151C10D10029FD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22CCC84A151C10D10029FD8E /* Build configuration list for PBXNativeTarget "GeocodingSample-iOS5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22CCC84B151C10D10029FD8E /* Debug */,
+				22CCC84C151C10D10029FD8E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22CCC823151C10D10029FD8E /* Project object */;
+}
